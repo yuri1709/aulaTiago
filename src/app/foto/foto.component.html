@@ -6,7 +6,7 @@
     <div *ngFor="let foto of fotos; index as i"> 
         <div *ngIf="controle == true || i % 2 == 0">
             <img [src]="foto.Path"  alt="">
-            <h4>Título {{ foto.Titulo }} index: {{i}}</h4>      
+            <h4>Título: {{ foto.Titulo }} index: {{i}}</h4>      
         </div>    
     </div>
 </div>
