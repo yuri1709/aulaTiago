@@ -1,12 +1,3 @@
-<h1>{{tituloPagina}}</h1>
-<div class="conteudo">
-    <!-- esse (click) é um event bind -->
-    <button (click)="show()">{{butaoNome}}</button>
-    <button (click)="mudar()">clique aqui</button> 
-    <div *ngFor="let foto of fotos; index as i"> 
-        <div *ngIf="controle == true || i % 2 == 0">
-            <img [src]="foto.Path"  alt="">
-            <h4>Título: {{ foto.Titulo }} index: {{i}}</h4>      
-        </div>    
-    </div>
-</div>
+<!-- pegando a imagem e deixando-a responsiva -->
+<img class="img-fluid" [src]="imagem" alt="">
+

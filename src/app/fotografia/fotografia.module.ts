@@ -1,8 +1,8 @@
 import { NgModule } from "@angular/core";
-import { BrowserModule } from "@angular/platform-browser";
-import { SharedModule } from "../shared.module";
+import { SharedModule } from "../shared/shared.module";
 
 import { FotoComponent } from "./foto/foto.component";
+
 import { FotoformComponent } from "./fotoform/fotoform.component";
 import { FotolistComponent } from "./fotolist/fotolist.component";
 
@@ -13,6 +13,7 @@ import { FotolistComponent } from "./fotolist/fotolist.component";
         FotolistComponent
     ],
     exports: [
+        FotolistComponent,
         FotoComponent
     ],
     imports: [
