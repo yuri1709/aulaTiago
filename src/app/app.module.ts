@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FotografiaModule } from './fotografia/fotografia.module';
 import { SharedModule } from './shared.module';
-
+//verificar mudança
 @NgModule({
   declarations: [
     AppComponent, 
