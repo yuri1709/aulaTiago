@@ -1,5 +1,5 @@
 export interface Foto {
-    Id: number;
-    Path: string;
-    Titulo: string;
+    id: number;
+    path: string;
+    titulo: string;
 }
