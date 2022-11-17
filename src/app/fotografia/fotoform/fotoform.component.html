@@ -25,14 +25,14 @@
     <form [formGroup]="formulario" (ngSubmit)="cadastrar(formulario)">
         <div class="form-group">
           <label>Endereço da Imagem(URL)</label>
-          <input type="text" class="form-control" placeholder="http://imagem.com" formControlName="img">
+          <input type="text" class="form-control" placeholder="http://imagem.com" name="img" formControlName="img">
           <div  *ngIf="formulario.get('img')?.errors"   >
                 <p style="color: red">*Endereço da imagem obrigatória</p>
           </div>
         </div>
         <div class="form-group">
           <label>Título da Foto</label>
-          <input type="text" class="form-control" placeholder="Título da Foto" formControlName="titulo">
+          <input type="text" class="form-control" placeholder="Título da Foto" name="titulo" formControlName="titulo">
           <div  *ngIf="formulario.get('titulo')?.errors"   >
             <p style="color: red;">*Título da foto obrigatória</p>
           </div>
