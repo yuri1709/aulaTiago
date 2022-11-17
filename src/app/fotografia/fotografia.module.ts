@@ -14,7 +14,8 @@ import { FotolistComponent } from "./fotolist/fotolist.component";
     ],
     exports: [
         FotolistComponent,
-        FotoComponent
+        FotoComponent,
+        FotoformComponent
     ],
     imports: [
         SharedModule

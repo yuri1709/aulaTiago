@@ -25,4 +25,9 @@ export class FotolistComponent implements OnInit {
     //no subscribe passamos uma arrow function para pegar as fotos e armazena-las dentro do nosso array fotos.
     //Agora precisamos dizer para o método .get<> qual é o tipo de dados iremos receber para que ele possa armazenar.
   }
+
+  alterarFotos() {
+    this.pegarFotos();
+    
+  }
 }

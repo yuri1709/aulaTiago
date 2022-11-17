@@ -11,5 +11,8 @@ export class FotoformComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  //Metodo de cadastro
+  cadastrar(form: any) {
+    console.log(form.value);
+  }
 }
